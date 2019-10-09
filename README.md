@@ -119,6 +119,8 @@ $ powerline-daemon —-replace
 $ brew install vim
 ```
 
+3. TBD
+
 ## Troubleshooting
 
 ### Locale
