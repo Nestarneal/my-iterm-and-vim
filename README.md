@@ -118,3 +118,11 @@ $ powerline-daemon —-replace
 ```
 $ brew install vim
 ```
+
+## Troubleshooting
+
+### Locale
+
+- Sometimes, the locale may be a problem when setting the iTerm based on the steps above.
+- We can first `$ ls -la /usr/share/locale/ | grep en_US` to try to find `en_US.UTF-8`.
+- And then, adding `export LC_ALL=en_US.UTF-8` into `.bash_profile` may be solve it. (After the setting, it's better to quit and restart iTerm)
