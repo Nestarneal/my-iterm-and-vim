@@ -121,6 +121,19 @@ $ brew install vim
 
 3. TBD
 
+## Git Autocomplete
+
+1. `$ brew install bash-completion`.
+2. Add following content into `.bash_profile`.
+
+```
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  source $(brew --prefix)/etc/bash_completion
+fi
+```
+
+3. `$ brew install git`.
+
 ## Troubleshooting
 
 ### Locale
