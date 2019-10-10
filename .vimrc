@@ -68,3 +68,6 @@ let g:airline_powerline_fonts = 1
 
 " vim-airline-themes
 let g:airline_theme='bubblegum'
+
+" Enable clipboard functionality.
+set clipboard+=unnamed
