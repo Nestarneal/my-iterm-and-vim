@@ -112,14 +112,14 @@ $ powerline-daemon —-replace
 
 ## vim
 
+### Install via Homebrew
+
 1. Install [Homebrew](https://brew.sh/index_ja).
 2. Install vim by Homebrew.
 
 ```
 $ brew install vim
 ```
-
-3. TBD
 
 ## Git Autocomplete
 
