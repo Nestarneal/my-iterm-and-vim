@@ -222,6 +222,10 @@ colorscheme solarized8
 :noremap <silent> <C-k> :bnext<CR>
 ```
 
+4. Install plugin to preview markdown files. ([vim-instant-markdown](https://github.com/suan/vim-instant-markdown))
+
+- Follow the tutorial in [here](https://vimawesome.com/plugin/instant-markdown-vim).
+
 ## Troubleshooting
 
 ### Locale

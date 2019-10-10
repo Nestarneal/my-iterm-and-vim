@@ -14,6 +14,9 @@ Plugin 'lifepillar/vim-solarized8'
 " GitHub Flavored Markdown syntax highlight.
 Plugin 'rhysd/vim-gfm-syntax'
 
+" Markdown preview.
+Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 
@@ -29,3 +32,9 @@ colorscheme solarized8
 " Switch buffers more comfortable.
 :noremap <silent> <C-j> :bprevious<CR>
 :noremap <silent> <C-k> :bnext<CR>
+
+" vim-instant-markdown.
+" Can use ':InstantMarkdownPreview' and ':InstantMarkdownStop' to toggle
+" preview.
+let g:instant_markdown_autostart = 0
+let g:instant_markdown_port = 8090
