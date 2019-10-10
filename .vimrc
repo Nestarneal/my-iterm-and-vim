@@ -17,6 +17,13 @@ Plugin 'rhysd/vim-gfm-syntax'
 " Markdown preview.
 Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
+" Render mode, branch, filename, location, and other useful informations.
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" Git wrapper.
+Plugin 'tpope/vim-fugitive'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 
@@ -52,3 +59,12 @@ let g:instant_markdown_port = 8090
 
 " Remove trailing spaces on save automatically.
 autocmd BufWritePre * %s/\s\+$//e
+
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_alt_sep = ' '
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline_powerline_fonts = 1
+
+" vim-airline-themes
+let g:airline_theme='bubblegum'
