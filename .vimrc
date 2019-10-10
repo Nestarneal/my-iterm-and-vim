@@ -38,3 +38,6 @@ colorscheme solarized8
 " preview.
 let g:instant_markdown_autostart = 0
 let g:instant_markdown_port = 8090
+
+" Enable line number presentation.
+:set number
