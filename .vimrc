@@ -27,6 +27,9 @@ Plugin 'tpope/vim-fugitive'
 " Tree explorer.
 Plugin 'scrooloose/nerdtree'
 
+" Fuzzy search file.
+Plugin 'ctrlpvim/ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 
