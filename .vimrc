@@ -24,6 +24,9 @@ Plugin 'vim-airline/vim-airline-themes'
 " Git wrapper.
 Plugin 'tpope/vim-fugitive'
 
+" Tree explorer.
+Plugin 'scrooloose/nerdtree'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 
@@ -71,3 +74,6 @@ let g:airline_theme='bubblegum'
 
 " Enable clipboard functionality.
 set clipboard+=unnamed
+
+" nerdtree
+map <C-e> :NERDTreeToggle<CR>
