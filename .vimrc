@@ -49,3 +49,6 @@ let g:instant_markdown_port = 8090
 " Highlight trailing spaces.
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
+
+" Remove trailing spaces on save automatically.
+autocmd BufWritePre * %s/\s\+$//e
