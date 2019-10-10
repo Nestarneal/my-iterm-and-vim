@@ -121,64 +121,9 @@ $ powerline-daemon —-replace
 $ brew install vim
 ```
 
-### Add Plugin Manager (Vundle)
+### Setup Plugin Manager ([Vundle](https://github.com/VundleVim/Vundle.Vim))
 
-1. Setup [Vundle](https://github.com/VundleVim/Vundle.Vim).
-
-```
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```
-
-2. Copy following content into `.vimrc`.
-
-```
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-
-" Keep Plugin commands between vundle#begin/end.
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" plugin on GitHub repo
-" Plugin 'tpope/vim-fugitive'
-
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
-
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-
-" All of your Plugins must be added before the following line
-call vundle#end()
-
-filetype plugin indent on
-
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-
-" Put your non-Plugin stuff after this line
-```
-
-3. Launch `vim` and run `:PluginInstall`.
+- `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 ## Git Autocomplete
 
@@ -195,34 +140,7 @@ fi
 
 ### Useful Plugins, Keymaps, and Settings
 
-1. Install vim theme `vim-solarized8`.
-
-- Add `Plugin 'lifepillar/vim-solarized8'` into `.vimrc`.
-- Restart `vim` and execute `:PluginInstall`.
-- Add following content into `.vimrc`.
-
-```
-syntax on
-set background=dark
-colorscheme solarized8
-```
-
-- Restart `vim` and it should be work.
-
-2. Install GitHub Flavored Markdown syntax highlight plugin `vim-gfm-syntax`.
-
-- Add `Plugin 'rhysd/vim-gfm-syntax'` into `.vimrc`.
-- Restart `vim` and execute `:PluginInstall`.
-- Restart `vim` and it should be work.
-
-3. To switch buffers more comfortable, add following content into `.vimrc`.
-
-```
-:noremap <silent> <C-j> :bprevious<CR>
-:noremap <silent> <C-k> :bnext<CR>
-```
-
-4. Install plugin to preview markdown files. ([vim-instant-markdown](https://github.com/suan/vim-instant-markdown))
+1. Install plugin to preview markdown files. ([vim-instant-markdown](https://github.com/suan/vim-instant-markdown))
 
 - Follow the tutorial in [here](https://vimawesome.com/plugin/instant-markdown-vim).
 
