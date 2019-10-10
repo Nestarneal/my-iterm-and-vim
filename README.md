@@ -193,6 +193,22 @@ fi
 
 3. `$ brew install git`.
 
+### Useful Plugins, Keymaps, and Settings
+
+1. Install vim theme `vim-solarized8`.
+
+- Add `Plugin 'lifepillar/vim-solarized8'` into `.vimrc`.
+- Restart `vim` and execute `:PluginInstall`.
+- Add following content into `.vimrc`.
+
+```
+syntax on
+set background=dark
+colorscheme solarized8
+```
+
+- Restart `vim` and it should be work.
+
 ## Troubleshooting
 
 ### Locale
