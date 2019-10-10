@@ -41,3 +41,7 @@ let g:instant_markdown_port = 8090
 
 " Enable line number presentation.
 :set number
+
+" Highlight current cursor line.
+:set cursorline
+:hi CursorLine ctermbg=238
