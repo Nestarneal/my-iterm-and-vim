@@ -45,3 +45,7 @@ let g:instant_markdown_port = 8090
 " Highlight current cursor line.
 :set cursorline
 :hi CursorLine ctermbg=238
+
+" Highlight trailing spaces.
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
