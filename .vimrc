@@ -25,3 +25,7 @@ filetype plugin indent on
 syntax on
 set background=dark
 colorscheme solarized8
+
+" Switch buffers more comfortable.
+:noremap <silent> <C-j> :bprevious<CR>
+:noremap <silent> <C-k> :bnext<CR>

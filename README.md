@@ -215,6 +215,13 @@ colorscheme solarized8
 - Restart `vim` and execute `:PluginInstall`.
 - Restart `vim` and it should be work.
 
+3. To switch buffers more comfortable, add following content into `.vimrc`.
+
+```
+:noremap <silent> <C-j> :bprevious<CR>
+:noremap <silent> <C-k> :bnext<CR>
+```
+
 ## Troubleshooting
 
 ### Locale
