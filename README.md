@@ -209,6 +209,12 @@ colorscheme solarized8
 
 - Restart `vim` and it should be work.
 
+2. Install GitHub Flavored Markdown syntax highlight plugin `vim-gfm-syntax`.
+
+- Add `Plugin 'rhysd/vim-gfm-syntax'` into `.vimrc`.
+- Restart `vim` and execute `:PluginInstall`.
+- Restart `vim` and it should be work.
+
 ## Troubleshooting
 
 ### Locale
