@@ -117,3 +117,7 @@ set hlsearch
 
 " Incremental search
 set incsearch
+
+" ctrlp.vim
+set wildignore+=*.swp
+let g:ctrlp_custom_ignore = '\v[\/](\.git|deps|node_modules|_build)$'
