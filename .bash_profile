@@ -10,3 +10,5 @@ POWERLINE_BASH_SELECT=1
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   source $(brew --prefix)/etc/bash_completion
 fi
+
+. $(brew --prefix asdf)/asdf.sh
