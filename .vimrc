@@ -34,6 +34,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
 
+" Autocomplete
+Plugin 'ycm-core/YouCompleteMe'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 

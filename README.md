@@ -144,6 +144,12 @@ fi
 
 - Follow the tutorial in [here](https://vimawesome.com/plugin/instant-markdown-vim).
 
+2. Plugin [`YouCompleteMe`](https://github.com/ycm-core/YouCompleteMe)
+
+- Add `Plugin 'ycm-core/YouCompleteMe'` into `.vimrc` and run `:PluginInstall`.
+- Install `cmake` by Homebrew `$ brew install cmake`.
+- Compile YCM with `$ cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer --ts-completer`
+
 ## Troubleshooting
 
 ### Locale
