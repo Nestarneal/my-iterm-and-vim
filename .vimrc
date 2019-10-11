@@ -37,6 +37,9 @@ Plugin 'mhinz/vim-mix-format'
 " Javascript
 Plugin 'pangloss/vim-javascript'
 
+" Typescript
+Plugin 'leafgarland/typescript-vim'
+
 " Autocomplete
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'slashmili/alchemist.vim'
