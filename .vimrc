@@ -34,11 +34,11 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
 
-" Javascript
+" JS, TS, JSX, TSX
 Plugin 'pangloss/vim-javascript'
-
-" Typescript
 Plugin 'leafgarland/typescript-vim'
+Plugin 'MaxMEllon/vim-jsx-pretty'
+Plugin 'HerringtonDarkholme/yats.vim'
 
 " Autocomplete
 Plugin 'ycm-core/YouCompleteMe'
