@@ -34,6 +34,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
 
+" Javascript
+Plugin 'pangloss/vim-javascript'
+
 " Autocomplete
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'slashmili/alchemist.vim'
