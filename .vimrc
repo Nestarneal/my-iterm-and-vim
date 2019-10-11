@@ -114,3 +114,6 @@ set expandtab
 
 " Highlight search.
 set hlsearch
+
+" Incremental search
+set incsearch
