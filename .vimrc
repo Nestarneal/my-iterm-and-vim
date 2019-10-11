@@ -40,6 +40,9 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'MaxMEllon/vim-jsx-pretty'
 Plugin 'HerringtonDarkholme/yats.vim'
 
+" Prettier
+Plugin 'prettier/vim-prettier'
+
 " Autocomplete
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'slashmili/alchemist.vim'
