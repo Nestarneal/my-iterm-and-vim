@@ -86,3 +86,9 @@ map <C-e> :NERDTreeToggle<CR>
 
 " Backspace
 set backspace=indent,eol,start
+
+" Tab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
