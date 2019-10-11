@@ -12,3 +12,5 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 . $(brew --prefix asdf)/asdf.sh
+
+export PATH=$PATH:/Users/user_name/.asdf/installs/elixir/1.9.1/.mix/escripts
