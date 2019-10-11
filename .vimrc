@@ -30,6 +30,9 @@ Plugin 'scrooloose/nerdtree'
 " Fuzzy search file.
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" Elixir
+Plugin 'elixir-editors/vim-elixir'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 
@@ -80,3 +83,6 @@ set clipboard+=unnamed
 
 " nerdtree
 map <C-e> :NERDTreeToggle<CR>
+
+" Backspace
+set backspace=indent,eol,start
