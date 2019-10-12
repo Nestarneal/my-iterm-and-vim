@@ -126,3 +126,8 @@ let g:ctrlp_custom_ignore = '\v[\/](\.git|deps|node_modules|_build)$'
 
 " Exit insert mode by typing jj
 inoremap <silent> jj <ESC>
+
+" Change cursor style based on mode.
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
