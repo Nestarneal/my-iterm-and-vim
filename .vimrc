@@ -44,13 +44,14 @@ Plugin 'HerringtonDarkholme/yats.vim'
 Plugin 'prettier/vim-prettier'
 
 " Autocomplete
-Plugin 'ycm-core/YouCompleteMe'
-Plugin 'slashmili/alchemist.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'jiangmiao/auto-pairs'
 
 " Indent line
 Plugin 'Yggdroot/indentLine'
+
+" Buffer
+Plugin 'jlanzarotta/bufexplorer'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
