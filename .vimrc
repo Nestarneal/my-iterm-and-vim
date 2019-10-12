@@ -46,6 +46,7 @@ Plugin 'prettier/vim-prettier'
 " Autocomplete
 Plugin 'tpope/vim-endwise'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'alvan/vim-closetag'
 
 " Indent line
 Plugin 'Yggdroot/indentLine'
@@ -122,3 +123,6 @@ set incsearch
 " ctrlp.vim
 set wildignore+=*.swp
 let g:ctrlp_custom_ignore = '\v[\/](\.git|deps|node_modules|_build)$'
+
+" Exit insert mode by typing jj
+inoremap <silent> jj <ESC>
