@@ -51,6 +51,9 @@ Plugin 'alvan/vim-closetag'
 " Indent line
 Plugin 'Yggdroot/indentLine'
 
+" JSON
+Plugin 'elzr/vim-json'
+
 " Buffer
 Plugin 'jlanzarotta/bufexplorer'
 
@@ -75,6 +78,9 @@ colorscheme solarized8
 " preview.
 let g:instant_markdown_autostart = 0
 let g:instant_markdown_port = 8090
+
+" vim-json
+let g:vim_json_syntax_conceal = 0
 
 " Enable line number presentation.
 :set number
