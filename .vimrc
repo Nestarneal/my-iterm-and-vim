@@ -34,6 +34,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
 
+" Ruby
+Plugin 'vim-ruby/vim-ruby'
+
 " JS, TS, JSX, TSX
 Plugin 'pangloss/vim-javascript'
 Plugin 'leafgarland/typescript-vim'
