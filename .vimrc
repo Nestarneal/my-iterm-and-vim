@@ -37,6 +37,9 @@ Plugin 'mhinz/vim-mix-format'
 " Ruby
 Plugin 'vim-ruby/vim-ruby'
 
+" Go
+Plugin 'fatih/vim-go'
+
 " JS, TS, JSX, TSX
 Plugin 'pangloss/vim-javascript'
 Plugin 'leafgarland/typescript-vim'
