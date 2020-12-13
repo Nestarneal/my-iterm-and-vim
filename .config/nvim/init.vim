@@ -29,6 +29,7 @@ if dein#load_state('/Users/user_name/.local/share/nvim/dein/')
   call dein#add('Yggdroot/indentLine')
   call dein#add('tpope/vim-fugitive')
   call dein#add('frazrepo/vim-rainbow')
+  call dein#add('pangloss/vim-javascript')
 
   call dein#end()
   call dein#save_state()
