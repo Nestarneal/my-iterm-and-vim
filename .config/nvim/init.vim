@@ -97,6 +97,3 @@ let g:rainbow_active = 1
 
 " Enable rufo (RUby FOrmat)
 let g:rufo_auto_formatting = 1
-
-" Change selected color
-highlight Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40
