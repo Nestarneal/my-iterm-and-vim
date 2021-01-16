@@ -32,7 +32,6 @@ if dein#load_state('/Users/user_name/.local/share/nvim/dein/')
   call dein#add('pangloss/vim-javascript')
   call dein#add('tpope/vim-rails')
   call dein#add('ruby-formatter/rufo-vim')
-  call dein#add('rakr/vim-one')
 
   call dein#end()
   call dein#save_state()
@@ -48,7 +47,7 @@ let g:deoplete#enable_at_startup = 1
 
 " Config for lifepillar/vim-solarized8
 set background=dark
-colorscheme one
+colorscheme solarized8
 
 " Show the line number
 set number
@@ -84,7 +83,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 
 " vim-airline-themes
-let g:airline_theme='one'
+let g:airline_theme='bubblegum'
 
 " Tab
 set tabstop=4
