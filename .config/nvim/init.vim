@@ -31,6 +31,7 @@ if dein#load_state('/Users/user_name/.local/share/nvim/dein/')
   call dein#add('frazrepo/vim-rainbow')
   call dein#add('pangloss/vim-javascript')
   call dein#add('tpope/vim-rails')
+  call dein#add('ruby-formatter/rufo-vim')
 
   call dein#end()
   call dein#save_state()
@@ -92,3 +93,6 @@ set expandtab
 
 " vim-rainbow
 let g:rainbow_active = 1
+
+" Enable rufo (RUby FOrmat)
+let g:rufo_auto_formatting = 1
