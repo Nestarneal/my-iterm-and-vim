@@ -96,3 +96,7 @@ let g:rainbow_active = 1
 
 " Enable rufo (RUby FOrmat)
 let g:rufo_auto_formatting = 1
+
+" Setup ruler
+set colorcolumn=80
+highlight ColorColumn ctermbg=lightcyan guibg=blue
